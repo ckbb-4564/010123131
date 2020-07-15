@@ -1,5 +1,5 @@
 # 6201012630037
-#Assignment I
+# Assignment I
 # Lauch a pygame window which create 10 non-overlapping / random sizes and colors circles that pop when clicked. 
 import pygame 
 from random import randint
