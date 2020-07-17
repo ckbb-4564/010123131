@@ -128,6 +128,7 @@ def checkColliBorder(item):
     if item.y < item.radius or item.y > height - item.radius:
         item.y_speed *= -1
 # Circles hit each other
+# Ref:http://www.geometrian.com/programming/projects/index.php?project=Circle%20Collisions
 def checkColliOther(item,other):
     more_dist = math.hypot(item.x - other.x , item.y - other.y)
     sum_r = item.radius + other.radius
