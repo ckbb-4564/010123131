@@ -279,7 +279,6 @@ for line in f.readlines():
 
 # Main
 postfix = infix_to_postfix(input_str)
-truthTable(postfix)
 tree = create_expression_tree(postfix)
 range_wide, range_height, radius = screenScale(tree, scr_w, scr_h)
 
