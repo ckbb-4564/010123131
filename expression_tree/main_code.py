@@ -54,4 +54,3 @@ while running:
     screen.blit(text_box, text_rect)
 
     pygame.display.flip()
-
