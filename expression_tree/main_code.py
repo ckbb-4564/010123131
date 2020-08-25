@@ -1,3 +1,4 @@
+#Main code
 import pygame
 from pygame.locals import *
 from expression import Expression

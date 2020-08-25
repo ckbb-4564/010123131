@@ -1,3 +1,4 @@
+#Read function
 def read_file(PATH):
     text = open(PATH, 'r')
     text_list = text.readlines()

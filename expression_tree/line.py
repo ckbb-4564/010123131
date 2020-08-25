@@ -1,3 +1,4 @@
+#Line class
 import pygame
 from pygame.locals import *
 
