@@ -18,9 +18,8 @@ pygame.display.set_caption('Assignment I')
 
 font = pygame.font.Font('freesansbold.ttf', 30)
 
-read_path = r'D:\Git\010123131\expression_tree\problem 1\Expression.txt' #Enter your full path of expression file
-save_path = r'D:\Git\010123131\expression_tree\problem 1\picture' #Enter your full path of picture to save
-
+read_path = r'Expression.txt' #FULL PATH TO READ FILE
+save_path = r'\picture' #FULL PATH TO SAVE FILE
 data = read_file(read_path)
 data_index = 0
 
