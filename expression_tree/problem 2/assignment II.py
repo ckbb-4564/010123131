@@ -142,7 +142,7 @@ class Truthtable(Expression):
 
 if __name__ == '__main__':
 
-    read_path = r'D:\Git\010123131\expression_tree\problem 1\Expression.txt'
+    read_path = r'Expression.txt' #FULL PATH TO READ FILE
     data = read_file(read_path)
 
     for line in data:
